@@ -41,14 +41,9 @@ export function MainContent({ activeSection }: MainContentProps) {
             <h2 className="text-3xl font-bold">Education</h2>
             <div className="space-y-6">
               <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-                <h3 className="text-xl font-semibold">Bachelor's in Computer Science</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">2016 - 2018</p>
-                <p className="mt-2">SVVV</p>
-              </div>
-              <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-                <h3 className="text-xl font-semibold">Bachelor's in Computer Engineering</h3>
+                <h3 className="text-xl font-semibold">Bachelor's in Computer Science & Enginnering</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">2021 - 2025</p>
-                <p className="mt-2">SVIIT</p>
+                <p className="mt-2">SVVV</p>
               </div>
             </div>
           </div>
