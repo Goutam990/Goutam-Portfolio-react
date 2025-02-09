@@ -18,7 +18,7 @@ export function Sidebar({ activeSection, setActiveSection }: SidebarProps) {
   return (
     <aside className="w-64 h-screen fixed left-0 top-0 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 p-6 flex flex-col">
       <div className="flex-1">
-        <h1 className="text-2xl font-bold mb-2 dark:text-white">John Doe</h1>
+        <h1 className="text-2xl font-bold mb-2 dark:text-white">Goutam Tiwari</h1>
         <div className="flex gap-2 mb-6">
           <a
             href="https://github.com"
