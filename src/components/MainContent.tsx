@@ -11,10 +11,9 @@ export function MainContent({ activeSection }: MainContentProps) {
       case 'introduction':
         return (
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold">Hello, I'm John</h2>
+            <h2 className="text-3xl font-bold">Hello, I'm Goutam</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              A passionate Full Stack Developer with 5+ years of experience in building scalable web applications.
-              I specialize in React, Node.js, and cloud technologies.
+            I'm a Full Stack Developer from India, passionate about turning ideas into powerful digital experiences. I specialize in creating sleek, user-friendly frontends and building strong, scalable backends. Whether it’s crafting beautiful interfaces or developing efficient server-side logic, I love bringing projects to life. Let’s create something amazing together! 🚀
             </p>
           </div>
         );
@@ -42,14 +41,14 @@ export function MainContent({ activeSection }: MainContentProps) {
             <h2 className="text-3xl font-bold">Education</h2>
             <div className="space-y-6">
               <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-                <h3 className="text-xl font-semibold">Master's in Computer Science</h3>
+                <h3 className="text-xl font-semibold">Bachelor's in Computer Science</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">2016 - 2018</p>
-                <p className="mt-2">University of Technology</p>
+                <p className="mt-2">SVVV</p>
               </div>
               <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
                 <h3 className="text-xl font-semibold">Bachelor's in Computer Engineering</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">2012 - 2016</p>
-                <p className="mt-2">Institute of Engineering</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">2021 - 2025</p>
+                <p className="mt-2">SVIIT</p>
               </div>
             </div>
           </div>
@@ -64,15 +63,15 @@ export function MainContent({ activeSection }: MainContentProps) {
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                    React & React Native
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                    TypeScript
+                    React 
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                     Tailwind CSS
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    javascript
                   </li>
                 </ul>
               </div>
@@ -89,7 +88,7 @@ export function MainContent({ activeSection }: MainContentProps) {
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    AWS
+                    MongoDB
                   </li>
                 </ul>
               </div>
