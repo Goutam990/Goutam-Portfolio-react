@@ -49,7 +49,7 @@ export function MainContent({ setActiveSection }: MainContentProps) {
           <h2 className="text-3xl font-bold">Experience</h2>
           <div className="space-y-6">
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-              <h3 className="text-xl font-semibold">Professional Java Programming - Intercrown Enterprise, LTD</h3>
+              <h3 className="text-xl font-semibold">Professional Java Programming - Intern Crowd Enterprise, LLP</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">1 Month</p>
               <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-400">
                 <li>Designed and implemented secure RESTful APIs in the new system, facilitating seamless user authentication for over 1,000 simultaneous sessions and ensuring data integrity and security protocols were maintained.</li>
@@ -58,6 +58,7 @@ export function MainContent({ setActiveSection }: MainContentProps) {
                 <li>Implemented secure login and authentication using JWT to enhance data security.</li>
                 <li>Enabled real-time updates by collaborating with frontend developers using WebSockets.</li>
               </ul>
+              <a href="https://drive.google.com/file/d/1KXsn0Blo9_Yqdk4AgCFSW-D_n3KarY10/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
             </div>
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
               <h3 className="text-xl font-semibold">Web Development Intern - Corevo Private Limited, Delhi</h3>
@@ -175,6 +176,48 @@ export function MainContent({ setActiveSection }: MainContentProps) {
               <h3 className="text-xl font-semibold">Project 2: Amazon Clone Web</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">An e-commerce platform built with HTML, CSS, and JS.</p>
               <a href="https://goutam990.github.io/New--Amazon/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="certifications" ref={(el) => (sectionsRef.current.certifications = el)} className="space-y-8">
+          <h2 className="text-3xl font-bold">Certifications</h2>
+          <div className="space-y-6">
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">The Joy of Computing Using Python</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Issued by NPTEL Online Certification</p>
+              <a href="https://drive.google.com/file/d/15aZRD3wExg6snKfHBA7Lg9ET8XnOm--x/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
+            </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Technical English for Engineers</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Issued by NPTEL Online Certification</p>
+              <a href="https://drive.google.com/file/d/1dinGS_z9h1R_gE2sBzW7jtgqu5iI-EO8/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
+            </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Soft Skills</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Issued by NPTEL Online Certification</p>
+              <a href="https://drive.google.com/file/d/1hWSmxlzWzdAK3lVqzjiT_FRScD6j0E9O/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
+            </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Introduction to Cloud Computing</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Issued by IBM and offered through Coursera</p>
+              <a href="https://drive.google.com/file/d/1MDgMzemdWwZSNLfwkgEwFXhAqqH5_xhY/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="blog" ref={(el) => (sectionsRef.current.blog = el)} className="space-y-8">
+          <h2 className="text-3xl font-bold">Blog</h2>
+          <div className="space-y-6">
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Blog Post 1</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Description of blog post 1.</p>
+              <a href="https://example.com/blog-post-1" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Read More</a>
+            </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Blog Post 2</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Description of blog post 2.</p>
+              <a href="https://example.com/blog-post-2" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Read More</a>
             </div>
           </div>
         </section>

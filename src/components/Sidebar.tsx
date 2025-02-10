@@ -13,6 +13,8 @@ const navItems: NavItem[] = [
   { id: 'studies', label: 'Studies' },
   { id: 'skills', label: 'Technical Skills' },
   { id: 'projects', label: 'Projects' },
+  { id: 'certifications', label: 'Certifications' },
+  { id: 'blog', label: 'Blog' }, // Added Blog section
 ];
 
 export function Sidebar({ activeSection, setActiveSection }: SidebarProps) {
