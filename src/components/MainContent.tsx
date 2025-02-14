@@ -177,6 +177,16 @@ export function MainContent({ setActiveSection }: MainContentProps) {
               <p className="text-sm text-gray-600 dark:text-gray-400">An e-commerce platform built with HTML, CSS, and JS.</p>
               <a href="https://goutam990.github.io/New--Amazon/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
             </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Project 3: BookReview</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">BookReview is a web application that allows users to explore, review, and rate books across various genres. Built with TypeScript, React, and Supabase, it provides a seamless experience for book lovers.</p>
+              <a href="https://aquamarine-narwhal-76f00b.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
+            </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Project 4: Spring Boot Backend</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">This project is a Spring Boot application that provides a backend system for managing users, patients, and heart rate data. It includes RESTful API endpoints for user registration, login, patient management, and heart rate data recording.</p>
+              <a href="https://github.com/Goutam990/Spring-boot-backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
+            </div>
           </div>
         </section>
 
