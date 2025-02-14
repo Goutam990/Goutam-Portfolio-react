@@ -50,7 +50,7 @@ export function MainContent({ setActiveSection }: MainContentProps) {
           <div className="space-y-6">
            
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-              <h3 className="text-xl font-semibold">Web Development Intern - Corevo Private Limited, Delhi</h3>
+              <h3 className="text-xl font-semibold">Web Development Intern | Corevo Private Limited, Delhi</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">3 Months</p>
               <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-400">
                 <li>Led and developed multiple full-stack web applications, integrating dynamic frontend interfaces with efficient backend APIs, resulting in a 30% improvement in page load speed.</li>
@@ -64,7 +64,7 @@ export function MainContent({ setActiveSection }: MainContentProps) {
               </ul>
             </div>
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-              <h3 className="text-xl font-semibold">Professional Java Programming - Intern Crowd Enterprise, LLP</h3>
+              <h3 className="text-xl font-semibold">Professional Java Programming | Intern Crowd Enterprise, LLP</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">1 Month</p>
               <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-400">
                 <li>Designed and implemented secure RESTful APIs in the new system, facilitating seamless user authentication for over 1,000 simultaneous sessions and ensuring data integrity and security protocols were maintained.</li>
