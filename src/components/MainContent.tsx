@@ -128,6 +128,10 @@ export function MainContent({ setActiveSection }: MainContentProps) {
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                  Supabase
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                   PostgreSQL
                 </li>
                 <li className="flex items-center gap-2">
