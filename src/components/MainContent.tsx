@@ -175,7 +175,7 @@ export function MainContent({ setActiveSection }: MainContentProps) {
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
               <h3 className="text-xl font-semibold">Project 2: Amazon Clone Web</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">An e-commerce platform built with HTML, CSS, and JS.</p>
-              <a href="https://goutam990.github.io/New--Amazon/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
+              <a href="https://goutam990.github.io/Amazon-clone/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
             </div>
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
               <h3 className="text-xl font-semibold">Project 3: BookReview</h3>
