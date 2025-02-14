@@ -107,6 +107,10 @@ export function MainContent({ setActiveSection }: MainContentProps) {
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  TypeScript
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                   Tailwind CSS
                 </li>
                 <li className="flex items-center gap-2">
