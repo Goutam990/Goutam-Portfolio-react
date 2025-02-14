@@ -141,19 +141,19 @@ export function MainContent({ setActiveSection }: MainContentProps) {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Tools and Others</h3>
+              <h3 className="text-xl font-semibold mb-4">Testing</h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  Git & GitHub
+                  Junit
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  Docker
+                  Mockito
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  PgAdmin
+                  Vitest
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
@@ -162,10 +162,6 @@ export function MainContent({ setActiveSection }: MainContentProps) {
                 <li className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
                   Insomnia
-                </li>
-                <li className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  Testing Tools
                 </li>
               </ul>
             </div>
