@@ -198,6 +198,11 @@ export function MainContent({ setActiveSection }: MainContentProps) {
         <section id="certifications" ref={(el) => (sectionsRef.current.certifications = el)} className="space-y-8">
           <h2 className="text-3xl font-bold">Certifications</h2>
           <div className="space-y-6">
+          <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Apna college | Certificate of Completion</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Issued by Apna college</p>
+              <a href="https://drive.google.com/file/d/17kTLFEHFM3W3CZnbC3N57EL7jrcopMh5/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
+            </div>
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
               <h3 className="text-xl font-semibold">The Joy of Computing Using Python</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">Issued by NPTEL Online Certification</p>
