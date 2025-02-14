@@ -48,18 +48,7 @@ export function MainContent({ setActiveSection }: MainContentProps) {
         <section id="experience" ref={(el) => (sectionsRef.current.experience = el)} className="space-y-8">
           <h2 className="text-3xl font-bold">Experience</h2>
           <div className="space-y-6">
-            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-              <h3 className="text-xl font-semibold">Professional Java Programming - Intern Crowd Enterprise, LLP</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">1 Month</p>
-              <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-400">
-                <li>Designed and implemented secure RESTful APIs in the new system, facilitating seamless user authentication for over 1,000 simultaneous sessions and ensuring data integrity and security protocols were maintained.</li>
-                <li>Developed RESTful APIs for user authentication and task management.</li>
-                <li>Integrated MongoDB for structured data storage, enhancing database performance.</li>
-                <li>Implemented secure login and authentication using JWT to enhance data security.</li>
-                <li>Enabled real-time updates by collaborating with frontend developers using WebSockets.</li>
-              </ul>
-              <a href="https://drive.google.com/file/d/1KXsn0Blo9_Yqdk4AgCFSW-D_n3KarY10/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
-            </div>
+           
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
               <h3 className="text-xl font-semibold">Web Development Intern - Corevo Private Limited, Delhi</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">3 Months</p>
@@ -73,6 +62,18 @@ export function MainContent({ setActiveSection }: MainContentProps) {
                 <li>Collaborated with cross-functional teams to design and implement user-friendly interfaces.</li>
                 <li>Assisted in resolving technical issues.</li>
               </ul>
+            </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Professional Java Programming - Intern Crowd Enterprise, LLP</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">1 Month</p>
+              <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-400">
+                <li>Designed and implemented secure RESTful APIs in the new system, facilitating seamless user authentication for over 1,000 simultaneous sessions and ensuring data integrity and security protocols were maintained.</li>
+                <li>Developed RESTful APIs for user authentication and task management.</li>
+                <li>Integrated MongoDB for structured data storage, enhancing database performance.</li>
+                <li>Implemented secure login and authentication using JWT to enhance data security.</li>
+                <li>Enabled real-time updates by collaborating with frontend developers using WebSockets.</li>
+              </ul>
+              <a href="https://drive.google.com/file/d/1KXsn0Blo9_Yqdk4AgCFSW-D_n3KarY10/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
             </div>
           </div>
         </section>
