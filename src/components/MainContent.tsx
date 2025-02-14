@@ -192,6 +192,11 @@ export function MainContent({ setActiveSection }: MainContentProps) {
               <p className="text-sm text-gray-600 dark:text-gray-400">This project is a Spring Boot application that provides a backend system for managing users, patients, and heart rate data. It includes RESTful API endpoints for user registration, login, patient management, and heart rate data recording.</p>
               <a href="https://github.com/Goutam990/Spring-boot-backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
             </div>
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
+              <h3 className="text-xl font-semibold">Project 5: CRUD App Backend </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">This is a RESTful API built using Node.js, Express.js, and MongoDB that performs CRUD (Create, Read, Update, Delete) operations for managing data.</p>
+              <a href="https://github.com/Goutam990/Crud-app-backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Project</a>
+            </div>
           </div>
         </section>
 
