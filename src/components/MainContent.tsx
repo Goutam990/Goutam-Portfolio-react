@@ -85,7 +85,7 @@ export function MainContent({ setActiveSection }: MainContentProps) {
               <h3 className="text-xl font-semibold">Bachelor's in Computer Science & Engineering</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">2021 - 2025</p>
               <p className="mt-2">SVVV</p>
-              <p className="mt-2">7.36 CGPA</p>
+              <p className="mt-2">7.5 CGPA</p>
             </div>
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
               <h3 className="text-xl font-semibold">12th</h3>
