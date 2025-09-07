@@ -50,19 +50,19 @@ export function MainContent({ setActiveSection }: MainContentProps) {
           <div className="space-y-6">
            
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-              <h3 className="text-xl font-semibold">Web Development Intern | Corevo Private Limited, Delhi</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">3 Months</p>
+              <h3 className="text-xl font-semibold">Junior Engineer | HomePage InfoTech Solutions LLP </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Sept 2025 - Present</p>
               <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-400">
-                <li>Led and developed multiple full-stack web applications, integrating dynamic frontend interfaces with efficient backend APIs, resulting in a 30% improvement in page load speed.</li>
-                <li>Collaborated closely with front-end developers to implement responsive designs across seven different devices; ensured seamless functionality through comprehensive cross-browser compatibility tests prior to launch phases.</li>
-                <li>Designed and deployed responsive web applications, ensuring 100% cross-browser compatibility and improving mobile performance by 25%, leading to a better user experience.</li>
-                <li>Diagnosed and resolved critical performance bottlenecks, reducing API response time by 40%, enhancing website efficiency, and increasing user retention rates.</li>
-                <li>Implemented robust debugging and troubleshooting strategies, leading to a 50% decrease in reported bugs and a more stable, high-performing application.</li>
-                <li>Collaborated with cross-functional teams to optimize UI/UX, improving customer engagement and increasing conversion rates by 20% through user-focused design enhancements.</li>
-                <li>Collaborated with cross-functional teams to design and implement user-friendly interfaces.</li>
-                <li>Assisted in resolving technical issues.</li>
+                <li>Developed and maintained enterprise-level applications using ASP.NET Core, C#, and SQL Server, ensuring scalability and performance.</li>
+                <li>Built and consumed RESTful APIs to enable seamless communication between front-end applications and backend services.</li>
+                <li>Implemented authentication and authorization using ASP.NET Identity and JWT, enhancing application security.</li>
+                <li>Optimized database queries and stored procedures, reducing response time by 35% and improving overall efficiency.</li>
+                <li>Collaborated with senior developers in debugging, troubleshooting, and resolving production issues to ensure system stability.</li>
+                <li>Worked on designing reusable components and modules, following industry best practices and clean coding standards.</li>
+
               </ul>
             </div>
+{/*             
             <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-4">
               <h3 className="text-xl font-semibold">Professional Java Programming | Intern Crowd Enterprise, LLP</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">1 Month</p>
@@ -74,7 +74,8 @@ export function MainContent({ setActiveSection }: MainContentProps) {
                 <li>Enabled real-time updates by collaborating with frontend developers using WebSockets.</li>
               </ul>
               <a href="https://drive.google.com/file/d/1KXsn0Blo9_Yqdk4AgCFSW-D_n3KarY10/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View Certificate</a>
-            </div>
+            </div> */}
+            
           </div>
         </section>
 
